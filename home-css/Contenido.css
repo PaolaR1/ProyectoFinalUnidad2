@@ -1,0 +1,73 @@
+
+
+h1{
+    color:rgb(168, 75, 255);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px !important;
+}
+
+h3{
+    color: rgb(250, 109, 93);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}   
+
+.bloque{
+    letter-spacing: 1px;
+    font-family:'Imbue', serif;
+    font-size: 22px; 
+    margin: 21px;
+}
+
+
+.bloquedos{
+    letter-spacing: 1px;
+    font-family:'Imbue', serif; 
+    font-size: 22px; 
+    text-align: center;
+    background-color: rgb(193, 248, 193);
+    margin: 0 21px;
+}
+
+h2{
+    color:rgb(185, 61, 102);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 25px !important;
+}
+
+h4{
+    color: rgb(218, 37, 67);
+    font-family:'Imbue', serif; 
+    text-align: left;
+}
+
+
+.bloquetres{
+     letter-spacing: 1px;
+     font-family:'Imbue', serif; 
+     font-size: 21px;
+     background-color: seashell;
+     margin: 0 21px !important;
+}   
+
+h1{
+    color:rgb(168, 75, 255);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}   
+
+h5{
+    font-size: 24px;
+    font-family:'Playfair Display SC', serif;
+}   
+.Info{
+    color:rgb(168, 75, 255);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.card{
+    margin: 50px;
+}

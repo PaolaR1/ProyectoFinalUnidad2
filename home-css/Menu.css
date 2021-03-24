@@ -1,0 +1,99 @@
+.Pazafira{
+    background-color: rgb(134, 211, 211);
+    padding-top: 13px;
+}
+
+.img-Pazafira{
+    width: 190px; 
+    height: 210px;   
+    margin: 0;
+    display: block;
+}
+
+.mainn-headerr{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(189, 224, 153);
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#iconomenu{
+    display: none;
+
+}
+
+.boton-menu{
+    padding-top: 30px;    
+}
+
+header label{
+    display: none;
+    width: 100%;
+    padding: 10px;
+    border-right: 1px solid rgb(189, 224, 153);
+}
+
+.Menu ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-flex;
+}
+
+.Menu li{
+    padding: 20px  25px  20px 25px;
+}
+
+.Menu li a{
+    text-decoration: none;
+    color: rgb(129, 40, 40);
+}
+
+.Menu li :hover{
+    text-decoration: overline;
+    color: rgb(207, 8, 75);
+}
+
+.color{
+    font-size: 28px;
+    font-family: 'Lobster', cursive;
+    color:rgb(6, 6, 63) !important;
+    margin: 10px;
+}
+
+.navbar-collapse li :hover{
+    color: white !important;
+}
+
+@media(max-width:920px){
+    header label{
+        display: block;
+        height: 75px;
+        
+    }
+
+.Menu{
+    position: absolute;
+    background-color:  rgb(207, 8, 75);
+    width: 100%;
+    margin-left: -100%;
+    transition: all 0.5s;
+    z-index: 100;
+
+}
+
+#iconomenu:checked~.Menu{
+    margin: 0;
+
+}
+
+.Menu ul{
+    display: block;
+}
+
+.Menu li:hover{
+    background-color: rgb(189, 224, 153);
+}
+}
+
